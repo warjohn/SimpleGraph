@@ -69,7 +69,8 @@ To compile and run this project, you need the following libraries installed:
 
 ```bash
 git clone https://github.com/your-repo/physics-engine.git
-cd physics-engine```
+cd physics-engine
+```
 
 ### Step 3: Build the Project 
 Using a Makefile or CMake: 

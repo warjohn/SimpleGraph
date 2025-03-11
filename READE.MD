@@ -114,7 +114,7 @@ make
          
 ## Acknowledgments 
 
-    SFML Team : For providing an excellent library for graphics and window management.
-    OpenCV Team : For enabling video recording and image processing capabilities.
-    Physics Concepts : Inspired by classical mechanics and collision dynamics.
+- SFML Team : For providing an excellent library for graphics and window management.
+- OpenCV Team : For enabling video recording and image processing capabilities.
+- Physics Concepts : Inspired by classical mechanics and collision dynamics.
      

@@ -71,3 +71,50 @@ To compile and run this project, you need the following libraries installed:
 git clone https://github.com/your-repo/physics-engine.git
 cd physics-engine```
 
+### Step 3: Build the Project 
+Using a Makefile or CMake: 
+
+If the project includes a Makefile or CMakeLists.txt, use the following commands: 
+```bash 
+mkdir build && cd build
+cmake ..
+make
+```
+
+### Step 4: Run the Program
+
+## Usage 
+
+- **Window Controls**: 
+  - Close the window by clicking the close button or pressing the Esc key.
+  - Resize the window to dynamically adjust object positions.
+         
+
+- **Simulation Settings**: 
+  - Modify the gravitational force by changing the setGravity calls in the main.cpp file.
+  - Adjust object properties (size, position, color, mass, etc.) in the main.cpp file.
+         
+
+- **Output**: 
+  - The simulation is recorded as an .avi video file named output.avi in the working directory.
+
+## Customization 
+
+- **Adding New Shapes**: 
+  - Create a new class (e.g., Pentagon) that inherits from the Object class.
+  - Implement the constructor and any additional functionality in the corresponding .cpp file.
+         
+
+- **Changing Gravity**: 
+  - Modify the Planets enum and gravity_constants.h to add new celestial bodies or adjust existing values.
+         
+
+- **Adjusting Simulation Parameters**: 
+  - Change the initial velocity, mass, size, or position of objects in the main.cpp file.
+         
+## Acknowledgments 
+
+    SFML Team : For providing an excellent library for graphics and window management.
+    OpenCV Team : For enabling video recording and image processing capabilities.
+    Physics Concepts : Inspired by classical mechanics and collision dynamics.
+     
